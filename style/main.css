@@ -221,3 +221,35 @@ nav {
 .quoter-designation {
     color: rgba(14, 14, 14, 0.60);
 }
+
+/* Table Style */
+.table-container {
+    margin-top: 32px;
+    padding: 32px;
+    background-color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+th {
+    background-color: #C6E4D6;
+    text-align: left;
+}
+
+td, th {
+    border: 1px solid #C6E4D6;
+    padding: 24px;
+    width: 1017px, 200px;
+}
+
+td > select {
+    padding: 12.5px;
+    background-color: #C6E4D6;
+    border-radius: 4px;
+    width: 152px;
+}
+
+.table-2ndheader {
+    padding-left: 0px;
+}
