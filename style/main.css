@@ -394,3 +394,7 @@ td > select {
     margin-bottom: 50px;
     margin-right: 23px;
 }
+
+.footer hr {
+    width: 1122px;
+}
