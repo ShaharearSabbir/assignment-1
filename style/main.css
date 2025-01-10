@@ -296,3 +296,42 @@ td > select {
     color: rgba(14, 14, 14, 0.70);
     margin-bottom: 32px;
 }
+
+/* Donate Style */
+
+.Donate {
+    text-align: center;
+}
+
+.donate-card {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.donate-card > h3 {
+    margin-top: 32px;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px;
+    background-color: white;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.donate-card > h3:hover {
+    background-color: #006A50;
+}
+
+#different {
+    background-color: #C6E4D6;
+}
+
+.donate-form input[type="text"] {
+    margin-top: 32px;
+    text-align: center;
+    padding: 20px 422px;
+    border-radius: 16px;
+    border: none;
+}
+
