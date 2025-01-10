@@ -335,3 +335,62 @@ td > select {
     border: none;
 }
 
+/* Newsletter style */
+
+.newsletter {
+    margin-top: 80px;
+    background-color: #C6E4D6;
+    text-align: center;
+    padding: 80px 265px;
+    border-radius: 24px;
+}
+
+.newsletter input[type="text"] {
+    padding: 18px 403px 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+}
+
+.newsletter-form {
+    margin-top: 24px;
+    display: flex;
+}
+
+.button-1 {
+    font-size: 18;
+    font-weight: 600;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: white;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-1:hover {
+    color:#006A50;
+    background-color: white;
+    border: 1px solid #006A50;
+    border-radius: 0px 8px 8px 0px;
+    padding: 16px 33px;
+    opacity: 0.7;
+}
+
+.footer {
+    background-color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.footer > h3 {
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 31.5px;
+}
+
+.footer > img {
+    margin-top: 32.5px;
+    margin-bottom: 50px;
+    margin-right: 23px;
+}
