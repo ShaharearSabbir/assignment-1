@@ -1,3 +1,102 @@
-body {
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
 }
+
+body {
+    background-color: #F5F5F5;
+    width: 1280px;
+    margin: 0 auto;
+    font-family: "Fira Sans", serif;
+}
+
+/* Shared Styles */
+.dark-1{
+    color: #0E0E0E;
+}
+
+.dark-green {
+    color: #006A50;
+}
+
+.button {
+    font-size: 18;
+    font-weight: 600;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    color:#006A50;
+    background-color: white;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 16px 33px;
+    opacity: 0.7;
+}
+
+.section-title {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+/* Nav style */
+nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 31px;
+}
+
+.nav-button {
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.nav-button:hover{
+    transition: 0.5s;
+    opacity: 0.7;
+    background-color: #006A50;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+/* Banner Style */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 560px;
+    margin-top: 20px;
+}
+
+.banner-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.50);
+    margin-bottom: 16px;
+}
+
+.banner-header {
+    font-size: 56px;
+    font-weight: bold;
+    width: 622px;
+    margin-bottom: 24px;
+}
+
+/* Pillar style */
+
