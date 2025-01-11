@@ -324,14 +324,20 @@ td > select {
     cursor: pointer;
 }
 
+
 .donate-card > h3:hover {
     background-color: #006A50;
+    color: white;
 }
 
 #different {
     background-color: #C6E4D6;
 }
 
+#different:hover {
+    background-color: #006A50;
+    color: white;
+}
 .donate-form input[type="text"] {
     margin-top: 32px;
     text-align: center;
