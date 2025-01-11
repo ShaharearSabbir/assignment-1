@@ -10,21 +10,13 @@ body {
     font-family: "Fira Sans", serif;
 }
 
-main {
-    width: 1280px;
-    margin: 0 auto;
-}
-
-header {
-    width: 1280px;
-    margin: 0 auto;
-}
-
-.Newslatter-container {
-    width: 1280px;
-    margin: 0 auto;
-}
 /* Shared Styles */
+
+.width-center {
+    width: 1280px;
+    margin: 0 auto;
+}
+
 .dark-1{
     color: #0E0E0E;
 }
