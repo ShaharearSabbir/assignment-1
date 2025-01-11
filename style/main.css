@@ -7,11 +7,23 @@
 
 body {
     background-color: #F5F5F5;
-    width: 1280px;
-    margin: 0 auto;
     font-family: "Fira Sans", serif;
 }
 
+main {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+header {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.Newslatter-container {
+    width: 1280px;
+    margin: 0 auto;
+}
 /* Shared Styles */
 .dark-1{
     color: #0E0E0E;
@@ -244,6 +256,7 @@ td, th {
 }
 
 td > select {
+    text-align: center;
     padding: 12.5px;
     background-color: #C6E4D6;
     border-radius: 4px;
@@ -343,6 +356,7 @@ td > select {
     text-align: center;
     padding: 80px 265px;
     border-radius: 24px;
+
 }
 
 .newsletter input[type="text"] {
@@ -393,4 +407,9 @@ td > select {
     margin-top: 32.5px;
     margin-bottom: 50px;
     margin-right: 23px;
+}
+
+.hr-container {
+    margin: 0 auto;
+    width: 1122px;
 }
